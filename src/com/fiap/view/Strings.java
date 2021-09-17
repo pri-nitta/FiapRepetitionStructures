@@ -83,7 +83,18 @@ public class Strings {
 		
 		System.out.println(acima.split(" ").length);
 		System.out.println(Arrays.toString(acima.split(" ")));
-	
+		
+		System.out.println("+++++++++++++++++++++++++++++++++++++");
+		
+		String diasMelhores = new String("Vivemos esperando o dia em que Seremos Melhores"); 
+		
+		System.out.println(diasMelhores.toUpperCase());
+		System.out.println(diasMelhores.toLowerCase());
+		
+		System.out.println(diasMelhores.substring(0,4));
+		System.out.println(diasMelhores.substring(31)); //trecho que começa a partir do caractere 31
+		System.out.println(diasMelhores.substring(diasMelhores.indexOf("esperando"), diasMelhores.indexOf("dia")));
+		
 	}
 
 }
