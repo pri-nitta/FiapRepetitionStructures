@@ -16,12 +16,15 @@ public class Array {
 		
 		System.out.println(valores[1]);
 		
+		//outras formas de instanciar as arrays
 		int valor[] = {1,2,3,4,5};
 		System.out.println(valor[2]);
 		
 		int valor2[] = new int[] {2,4,6,8,10};
 		System.out.println(valor2[0]);
 		
+		
+		//arrays usando classes
 		Produto[] produtos = new Produto[2];
 		
 		Produto prod1 = new Produto();
