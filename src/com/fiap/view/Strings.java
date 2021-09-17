@@ -12,10 +12,12 @@ public class Strings {
 		System.out.println(nome2);
 		
 		//pool de memória que funciona como um cash
-		//não 
 		String nome3 = "Uva";
 		System.out.println(nome3);
 		
+		System.out.println("+++++++++++++++++++++++++++++++++++++");
+		
+		//caracteres scape
 		String descricao = "Maça Gala \nA mais doce do mercado";
 		System.out.println(descricao);
 		
@@ -25,6 +27,20 @@ public class Strings {
 		String aspas = "Uva verde: \"sem semente\" é a mais fácil de comer";
 		System.out.println(aspas);
 		
+		System.out.println("+++++++++++++++++++++++++++++++++++++");
+		
+		//Concatenar
+		String primeiro = new String("Faça elevar");
+		String segundo = new String("o cosmo no seu coração");
+		
+		String mais = primeiro + " " + segundo;
+		System.out.println(mais);
+		
+		String concatenar = primeiro.concat(" ").concat(segundo);
+		System.out.println(concatenar);
+		
+		mais += "!";
+		System.out.println(mais);
 
 	}
 
